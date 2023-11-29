@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="index.css" />
+    <title>About Liam Sigma</title>
+</head>
+<!----THIS IS WHAT SHOWS UP-->
+
+<body style="background-color:r#e5e5cd;">
+    <header style="background-color: rgb(184, 182, 182); text-align: center;">
+        <h1>Liam "Sigma" Riordan</h1>
+    </header>
+
+    <h3>More Info</h3>
+    <ul>
+        <li>I like fellow sigmas.</li>
+        <li>I like winter.</li>
+        <li>I like playing basketball.</li>
+        <li>I like watching Youtube.</li>
+        <li>I like ultimate frisbee.</li>
+        <li>I like cats and dogs.</li>
+        <li>I like potato soup.</li>
+    </ul>
+    <section id="past-sigmas">
+        <section class="flex">
+            <h3 id="past-sigmas-text">Past Sigmas</h3>
+        </section>
+        <div class="flex" id="btn-section">
+            <button id="img-back" onclick="imagesBack()">Bring Images Back</button>
+        </div>
+        <section id="img-section" class="flex">
+            <img src="https://snworksceo.imgix.net/dtc/1d166154-9479-4197-b90f-fc2a0935d37d.sized-1000x1000.jpeg?w=1000"
+                id="sigma" onclick="hideObject('sigma')">
+            <img src="./Images /Seegma.jpeg" id="stock" onclick="hideObject('stock')"> <img
+                src="./Images /goofy ahh.webp" id="pro" onclick="hideObject('pro')">
+        </section>
+    </section>
+    <h3>Bar Test</h3>
+    <label for="Bar Test">BarTest:</label>
+    <input type="range" id="BarTest" name="BarTest" min="0" max="50" onclick="barDragFunction()">
+    <script src="script.js"></script>
+</body>
+
+</html>

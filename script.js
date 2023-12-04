@@ -43,3 +43,8 @@ function hideObject(imageID) {
         setTimeout(() => imgBackBtnEL.style.display = 'block', 1000)
     }
 }
+
+function playSound() {
+    const youtubeHornVideoButton = document.getElementById('sound-section')
+    console.log(youtubeHornVideoButton)
+}

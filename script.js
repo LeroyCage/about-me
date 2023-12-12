@@ -45,6 +45,7 @@ function hideObject(imageID) {
 }
 
 function playSound() {
-    const youtubeHornVideoButton = document.getElementById('sound-section')
-    console.log(youtubeHornVideoButton)
+    const youtubeHornVideoButton = document.getElementById('horn-video')
+    youtubeHornVideoButton.setAttribute('src', 'https://www.youtube.com/embed/FQc5zRy6wBU/?autoplay=1')
+    console.log(youtubeHornVideoButton.attributes)
 }

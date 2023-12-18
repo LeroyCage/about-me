@@ -13,6 +13,10 @@ h3 {
     color: rgb(255, 255, 254)
 }
 
+#likes {
+    font-size: 30px;
+    font-weight: 1000;
+}
 
 .redtext {
     color: red;
@@ -64,13 +68,13 @@ button {
     border-bottom-color: blue;
     border-left-color: rgb(153, 255, 0);
     border-right-color: yellow;
+    border-style: double;
 }
 
 #img-back {
     display: none;
     position: absolute;
 
-    border-style: double;
     animation: move 1s ease-in;
 }
 

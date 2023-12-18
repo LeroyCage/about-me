@@ -1,9 +1,8 @@
-console.log('hi)')
-
 const barEl = document.getElementById('BarTest');
-let arrayOfHiddenImages = []
 
-console.log(barEl)
+const indonesianBusHorn = new Audio('./sounds/bushorn.mp3')
+
+let arrayOfHiddenImages = []
 
 function barDragFunction() {
     console.log('dragggg')
@@ -24,7 +23,9 @@ function imagesBack() {
     imgBackBtnEL.style.display = "none"
     arrayOfHiddenImages = []
 }
-
+function bushorn() {
+    indonesianBusHorn.play()
+}
 function buttonSwoop() {
     setTimeout(() => {
 
@@ -44,8 +45,3 @@ function hideObject(imageID) {
     }
 }
 
-function playSound() {
-    const youtubeHornVideoButton = document.getElementById('horn-video')
-    youtubeHornVideoButton.setAttribute('src', 'https://www.youtube.com/embed/FQc5zRy6wBU/?autoplay=1')
-    console.log(youtubeHornVideoButton.attributes)
-}
